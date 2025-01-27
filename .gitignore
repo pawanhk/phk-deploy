@@ -1,0 +1,12 @@
+.vercel
+node_modules/
+build/
+dist/
+.cache/
+*.log
+.DS_store
+package-lock.json
+
+
+
+

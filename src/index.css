@@ -1,0 +1,16 @@
+html{
+  font-size: 62.5%;
+}
+
+
+body{
+  margin: 0;
+  font: 300 11px/1.4 "Roboto Condensed", serif;
+  color: #CDD7D6;
+  background-color: #253237 !important;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

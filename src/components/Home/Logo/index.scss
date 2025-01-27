@@ -1,0 +1,77 @@
+body, html {
+    overflow: auto;
+}
+
+.logo-container{
+    z-index: 0;
+    width: 400px;
+    height: 609px;
+    position: absolute;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    top: 15%;
+    right: 5%;
+    bottom: 0;
+    left: auto;
+    cursor: pointer;
+    perspective: 1000px;
+    touch-action: manipulation;
+    pointer-events: auto;
+
+    &:hover {
+        transform: translateY(-10px); 
+    }
+
+    img{
+        height: 500px;
+        width: 300px !important;
+    }
+    
+    @media (max-width: 768px){
+        position: relative;
+        top: 100%;
+        right: 5%;
+        &:hover {
+            transform: translateY(0px); 
+        }
+    }
+
+    @media (max-width: 576px){
+        position: relative;
+        top: 100%;
+        right: 5%;
+
+        &:hover {
+            transform: translateY(0px); 
+        }
+    }
+}
+
+
+
+.solid-logo{
+    position: absolute;
+    top:auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    transform-style: preserve-3d; 
+    transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transform: rotateZ(10deg);
+    z-index: 1;
+    user-select: none;
+
+    @media (max-width: 768px){
+        transform: rotateZ(0deg);
+        left: 10%;
+    }
+
+    @media (max-width: 576px){
+        transform: rotateZ(0deg);
+    }
+}
+
+.solid-logo.rotate{
+    transform: rotateY(180deg);
+}
