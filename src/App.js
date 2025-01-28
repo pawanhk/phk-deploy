@@ -10,9 +10,9 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="phk-deploy/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
+        <Route path="phk-deploy/about" element={<About />} />
       </Route>
     </Routes>
     </>
