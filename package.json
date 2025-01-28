@@ -1,15 +1,21 @@
 {
-  "homepage": "https://pawanhk.github.io/phk.com",
+  "homepage": "https://pawanhk.github.io/phk-deploy",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.3",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.8",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.3",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "sass": "^1.83.4"
   },
   "scripts": {
     "start": "react-scripts start",
