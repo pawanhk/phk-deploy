@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/phk-deploy/static/css/main.a5cc9116.css",
+    "main.js": "/phk-deploy/static/js/main.94c16a33.js",
+    "static/media/alt.png": "/phk-deploy/static/media/alt.70aabf748fe481eacf71.png",
+    "static/media/desk.png": "/phk-deploy/static/media/desk.fb2df5b743cc28f33b81.png",
+    "index.html": "/phk-deploy/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.a5cc9116.css",
+    "static/js/main.94c16a33.js"
+  ]
+}
