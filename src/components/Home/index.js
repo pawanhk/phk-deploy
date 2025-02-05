@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './index.scss';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
+import AnimatedDots from '../AnimatedDots';
 import Logo from './Logo';
 
 
@@ -35,6 +36,9 @@ const Home = () => {
                 <h2> <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22}/> </h2>
                 <h2> <AnimatedLetters letterClass={letterClass} strArray={job2Array} idx={44}/> </h2>
                 <Link to="/contact" className='flat-button'> Contact Me </Link>
+            </div>
+            <div className="dots-background">
+                <AnimatedDots />
             </div>
             <Logo />
         </div>

@@ -1,11 +1,56 @@
 .home-page{
     .text-zone{
         position: absolute;
-        left: 10%;
+        left: 5%;
         top: 50%;
         transform: translateY(-50%);
         max-height: 90%;
+        z-index: 2;
     }
+    
+    .dots-background{
+        position: absolute;
+        top: 15%;
+        right: 38%;
+        width: 25%;
+        height: 25%;
+        z-index: 0;
+        cursor: crosshair;
+      }
+      
+      .grid{
+        display: grid;
+        width: 25%;
+        height: 25%;
+        align-items: center;
+        justify-items: center;
+        grid-gap: 10px; 
+      }
+      
+      .dot-point{
+        width: 10px; 
+        height: 10px;
+        background-color: #368f8b; 
+        border-radius: 50%;
+        opacity: 1 !important;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+      
+      .group:hover .dot-point{
+        background-color: #E9C46A;
+      }
+
+      @media (max-width: 768px){
+        .dots-background{
+          display: none;
+        }
+  
+      }
+
+    @media (max-width: 576px){
+
+      }
+
     h1{
         color: #e0fbfc;
         font-size: 53px !important;
@@ -44,3 +89,4 @@
         }
     }
 }
+
