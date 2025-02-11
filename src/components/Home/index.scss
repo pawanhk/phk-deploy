@@ -86,7 +86,25 @@
             color: #e0fbfc;
             border: 3px solid #368f8b ;
             border-radius: 5px;
+
+            svg{
+              stroke: white !important;
+            }
         }
     }
+
+    .links{
+      padding-top: 10px;
+      margin-left: 0px;
+      svg{
+        margin-right: 10px;
+        margin-left: 0px;
+      }
+    }
+
+    .links a{
+      animation: fadeIn 1s 2s backwards;
+    }
+
 }
 
