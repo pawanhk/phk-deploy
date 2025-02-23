@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/phk-deploy/static/css/main.2b0a1d27.css",
-    "main.js": "/phk-deploy/static/js/main.2e257fab.js",
-    "static/media/alt.png": "/phk-deploy/static/media/alt.42cc00af50acaf6b03d9.png",
-    "static/media/desk.png": "/phk-deploy/static/media/desk.51148017ab3ff0eca58a.png",
+    "main.css": "/phk-deploy/static/css/main.0817e6fa.css",
+    "main.js": "/phk-deploy/static/js/main.f69ad752.js",
+    "static/media/desk4.png": "/phk-deploy/static/media/desk4.9929d05ee7f2a9efde8a.png",
+    "static/media/alt3.png": "/phk-deploy/static/media/alt3.9bfde4447ca466d36511.png",
     "index.html": "/phk-deploy/index.html",
-    "main.2b0a1d27.css.map": "/phk-deploy/static/css/main.2b0a1d27.css.map",
-    "main.2e257fab.js.map": "/phk-deploy/static/js/main.2e257fab.js.map"
+    "main.0817e6fa.css.map": "/phk-deploy/static/css/main.0817e6fa.css.map",
+    "main.f69ad752.js.map": "/phk-deploy/static/js/main.f69ad752.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b0a1d27.css",
-    "static/js/main.2e257fab.js"
+    "static/css/main.0817e6fa.css",
+    "static/js/main.f69ad752.js"
   ]
 }
