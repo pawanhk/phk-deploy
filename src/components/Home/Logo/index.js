@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './index.scss';
-import banner1 from '../../../assets/Images/desk.png';
-import banner2 from '../../../assets/Images/alt.png';
+import banner1 from '../../../assets/Images/f3.png';
+import banner2 from '../../../assets/Images/f2.png';
 
 const Logo = () => {
     const [isFlipped, setIsFlipped] = useState(false);

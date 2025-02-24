@@ -1,0 +1,19 @@
+.aurora-container {
+  top: 100%;
+  width: 100vw;  /* Ensures it spans the entire width of the screen */
+  height: 5%; /* Adjust height as needed */
+  transform: rotate(180deg); /* Rotates the container */
+  position: absolute; /* Keeps it fixed relative to the screen */
+  overflow: visible;
+
+  @media (max-width: 768px){
+    margin-left: 0px !important;
+    margin-top: 170%;
+  }
+
+  @media (max-width: 576px){
+    margin-left: 0px !important;
+    margin-top: 170%;
+    padding-left: 0px !important;
+  }
+}

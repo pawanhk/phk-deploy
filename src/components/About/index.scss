@@ -1,0 +1,94 @@
+.countUp{
+    margin-top: 11%;
+    margin-left: 60%;
+    @media (max-width: 768px){
+        font-size: 15px;
+        position: relative;
+        top: 140%;
+        margin-left: 0%;
+    }
+
+    @media (max-width: 576px){
+        font-size: 15px;
+        position: relative;
+        top: 140%;
+        margin-left: 0%;
+    }
+}
+
+.text-zone{
+    margin-top: -5%;
+    
+    h1{
+        min-width: 276px;
+    }
+    p{
+        min-width: 276px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: justify;
+        text-justify: inter-word;
+
+        @media (max-width: 768px){
+            text-align: none;
+            text-justify: none;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        @media (max-width: 576px){
+            text-align: none;
+            text-justify: none;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+
+    }
+    @media (max-width: 768px){
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+        height: auto;
+
+    }
+
+    @media (max-width: 576px){
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.about-header{
+    margin-left: -57% !important;
+
+    @media (max-width: 768px){
+        margin-left: -20% !important;
+        margin-left: -50%;
+    }
+
+    @media (max-width: 576px){
+        margin-left: -20% !important;
+        margin-left: -20%;
+    }
+}
+
+.rtext{
+    margin-left: 65%;
+    font-size: 60px;
+    @media (max-width: 768px){
+        position: relative;
+        top: 135%;
+        margin-left: 5%;
+    }
+
+    @media (max-width: 576px){
+        position: relative;
+        top: 135%;
+        margin-left: 5%;
+    }
+}

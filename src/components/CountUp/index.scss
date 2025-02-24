@@ -1,0 +1,40 @@
+.countup-container {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .countup-stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .countup-item {
+    text-align: center;
+  }
+  
+  .countup-item h3 {
+    font-size: 40px;
+    font-weight: bold;
+    @media (max-width: 768px){
+      font-size: 30px;
+    }
+
+    @media (max-width: 576px){
+      font-size: 30px
+    }
+  }
+  
+  .countup-item p {
+    font-size: 18px;
+    @media (max-width: 768px){
+      font-size: 15px;
+    }
+
+    @media (max-width: 576px){
+      font-size: 15px;
+    }
+  }
+  

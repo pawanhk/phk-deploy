@@ -1,5 +1,6 @@
 import React from "react";
 import anime from "animejs";
+import { useEffect } from "react";
 
 // Constants for grid dimensions
 const GRID_WIDTH = 20;
@@ -38,6 +39,17 @@ const DotGrid = () => {
       }),
     });
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const randomIndex = Math.floor(Math.random() * (GRID_WIDTH * GRID_HEIGHT));
+      const fakeEvent = { target: { dataset: { index: randomIndex } } }; // Simulate a click event
+      handleDotClick(fakeEvent);
+    }, 5000); // Every 5 seconds
+  
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, []);
+  
 
   // Generate Grid of Dots
   const dots = [];

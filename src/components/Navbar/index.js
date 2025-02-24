@@ -13,7 +13,7 @@ const CustNavbar = () => (
     <Navbar expand="lg" className="custom-navbar d-flex justify-content-between align-items-center">
       <Container fluid>
         <Link className='logo-name' to='/'>
-            <Navbar.Brand className="custom-brand">Pawan Harikrishnan</Navbar.Brand>
+            <Navbar.Brand className="custom-brand">PHK.</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

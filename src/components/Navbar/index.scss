@@ -1,7 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
 
 .custom-navbar{
-    background-color: #5c6b73;
+    background-color: black;
     width: 100%;
     height: 60px;
     position: absolute;
@@ -43,7 +43,7 @@
 
     @media (max-width: 768px) {
         .navbar-collapse {
-            background: rgba(92, 107, 115, 1);
+            background: #141414;
             position: absolute;
             top: 100%; 
             left: 0;
