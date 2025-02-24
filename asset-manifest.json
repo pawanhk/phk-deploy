@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/phk-deploy/static/css/main.88877d33.css",
-    "main.js": "/phk-deploy/static/js/main.fe194195.js",
+    "main.css": "/phk-deploy/static/css/main.00518b22.css",
+    "main.js": "/phk-deploy/static/js/main.9e1f9275.js",
     "static/media/f3.png": "/phk-deploy/static/media/f3.5fde80946975cd6da319.png",
     "static/media/f2.png": "/phk-deploy/static/media/f2.d03cc045fc8ed172803b.png",
     "index.html": "/phk-deploy/index.html",
-    "main.88877d33.css.map": "/phk-deploy/static/css/main.88877d33.css.map",
-    "main.fe194195.js.map": "/phk-deploy/static/js/main.fe194195.js.map"
+    "main.00518b22.css.map": "/phk-deploy/static/css/main.00518b22.css.map",
+    "main.9e1f9275.js.map": "/phk-deploy/static/js/main.9e1f9275.js.map"
   },
   "entrypoints": [
-    "static/css/main.88877d33.css",
-    "static/js/main.fe194195.js"
+    "static/css/main.00518b22.css",
+    "static/js/main.9e1f9275.js"
   ]
 }
